@@ -9,6 +9,7 @@ scratch.u
 
 # Cabal
 dist-newstyle
+cabal.*.local
 
 # GHC
 *.hie
