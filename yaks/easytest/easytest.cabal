@@ -64,7 +64,7 @@ library
     stm                       >= 2.4,
     random                    >= 1.1
 
-  ghc-options: -Wall -fno-warn-name-shadowing
+  ghc-options: -Wall
 
   if flag(optimized)
     ghc-options: -funbox-strict-fields -O2

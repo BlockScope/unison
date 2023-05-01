@@ -44,7 +44,7 @@ library
       TupleSections
       TypeApplications
       ViewPatterns
-  ghc-options: -Wall -fno-warn-orphans
+  ghc-options: -Wall
   build-depends:
       aeson
     , base

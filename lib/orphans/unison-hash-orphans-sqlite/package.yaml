@@ -17,7 +17,6 @@ dependencies:
 
 ghc-options:
   -Wall
-  -fno-warn-orphans
 
 default-extensions:
   - ApplicativeDo
