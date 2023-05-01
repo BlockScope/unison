@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Some naming conventions used in this module:
 --
 -- * @32@: the base32 representation of a hash

@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.PatternMatchCoverage.Literal
   ( Literal (..),
     prettyLiteral,

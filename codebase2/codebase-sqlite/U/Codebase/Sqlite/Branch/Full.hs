@@ -5,6 +5,8 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 {-# LANGUAGE TypeApplications #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Codebase.Sqlite.Branch.Full where
 
 import Control.Lens

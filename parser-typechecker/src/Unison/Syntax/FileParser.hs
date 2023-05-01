@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Syntax.FileParser where
 
 import Control.Lens

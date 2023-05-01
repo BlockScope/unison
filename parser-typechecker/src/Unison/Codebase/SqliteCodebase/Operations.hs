@@ -1,5 +1,7 @@
 {-# LANGUAGE RecordWildCards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | This module contains sqlite-specific operations on high-level "parser-typechecker" types all in the Transaction
 -- monad.
 --

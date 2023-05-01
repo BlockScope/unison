@@ -1,5 +1,7 @@
 {-# LANGUAGE RecordWildCards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.NamesWithHistory where
 
 import Data.List.Extra (nubOrd)

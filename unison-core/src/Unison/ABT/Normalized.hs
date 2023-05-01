@@ -9,6 +9,8 @@
 {-# LANGUAGE UndecidableInstances #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.ABT.Normalized
   ( ABT (..),
     Term (.., TAbs, TTm, TAbss),

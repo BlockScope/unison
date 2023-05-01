@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.PatternMatchCoverage.PmGrd where
 
 import Unison.ConstructorReference (ConstructorReference)

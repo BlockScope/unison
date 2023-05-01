@@ -1,6 +1,8 @@
 {-# LANGUAGE DeriveGeneric #-}
 {-# LANGUAGE RankNTypes #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Codebase.Causal.FoldHistory (FoldHistoryResult (..), foldHistoryUntil) where
 
 import qualified Data.Map as Map

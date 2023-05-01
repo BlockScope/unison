@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Server.SearchResult where
 
 import qualified Data.Set as Set

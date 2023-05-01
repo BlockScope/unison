@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Codebase.Term where
 
 import qualified Control.Monad.Writer as Writer

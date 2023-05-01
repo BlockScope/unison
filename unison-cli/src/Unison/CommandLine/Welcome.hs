@@ -1,5 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.CommandLine.Welcome where
 
 import Data.Sequence (singleton)

@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Render Unison.Server.Doc and embedded source to Html
 module Unison.Server.Doc.AsHtml where
 

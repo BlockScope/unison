@@ -1,6 +1,8 @@
 {-# LANGUAGE DataKinds #-}
 {-# LANGUAGE PolyKinds #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.LSP.Hover where
 
 import Control.Lens hiding (List)

@@ -1,5 +1,7 @@
 {-# LANGUAGE PatternSynonyms #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Typechecker.TypeVar where
 
 import qualified Data.Set as Set

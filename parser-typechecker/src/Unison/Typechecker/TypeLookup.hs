@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Typechecker.TypeLookup where
 
 import qualified Data.Map as Map

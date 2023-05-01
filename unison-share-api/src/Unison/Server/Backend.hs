@@ -8,6 +8,8 @@
 {-# LANGUAGE TypeApplications #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Server.Backend
   ( -- * Types
     BackendError (..),

@@ -3,6 +3,8 @@
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | This module handles parsing CLI arguments into 'Command's.
 -- See the excellent documentation at https://hackage.haskell.org/package/optparse-applicative
 module ArgParse where

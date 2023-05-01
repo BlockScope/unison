@@ -2,6 +2,8 @@
 {-# LANGUAGE PolyKinds #-}
 {-# LANGUAGE QuasiQuotes #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.LSP.CancelRequest where
 
 import Control.Lens

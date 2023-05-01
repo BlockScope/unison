@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Builtin.Decls where
 
 import Control.Lens (over, _3)

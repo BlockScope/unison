@@ -1,5 +1,7 @@
 {-# LANGUAGE PartialTypeSignatures #-}
-{-# OPTIONS_GHC -fno-warn-orphans #-}
+
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+{-# OPTIONS_GHC -Wno-orphans #-}
 
 module Unison.Test.Codebase.Causal (test) where
 

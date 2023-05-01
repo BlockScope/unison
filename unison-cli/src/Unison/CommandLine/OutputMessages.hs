@@ -1,7 +1,9 @@
 {-# LANGUAGE MagicHash #-}
 {-# LANGUAGE PartialTypeSignatures #-}
 {-# LANGUAGE RecordWildCards #-}
-{-# OPTIONS_GHC -fno-warn-partial-type-signatures #-}
+
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+{-# OPTIONS_GHC -Wno-partial-type-signatures #-}
 
 module Unison.CommandLine.OutputMessages where
 

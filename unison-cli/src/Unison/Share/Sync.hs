@@ -1,6 +1,8 @@
 {-# LANGUAGE DataKinds #-}
 {-# LANGUAGE TypeOperators #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Share.Sync
   ( -- ** Get causal hash by path
     getCausalHashByPath,

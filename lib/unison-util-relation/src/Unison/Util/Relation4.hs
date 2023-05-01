@@ -1,5 +1,7 @@
 {-# LANGUAGE RecordWildCards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Util.Relation4 where
 
 import Data.Function (on)

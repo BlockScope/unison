@@ -7,6 +7,8 @@
 {-# LANGUAGE UndecidableInstances #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Hashing.V2.ABT (Unison.ABT.Term, hash, hashComponents) where
 
 import Data.List hiding (cycle, find)

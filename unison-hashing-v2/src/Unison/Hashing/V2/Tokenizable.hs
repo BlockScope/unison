@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Hashing.V2.Tokenizable
   ( Tokenizable (..),
     Hashable1 (..),

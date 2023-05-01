@@ -3,6 +3,8 @@
 {-# LANGUAGE LambdaCase #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Util.Term where
 
 import Control.Monad.Writer (execWriter, tell)

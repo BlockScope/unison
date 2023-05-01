@@ -4,6 +4,8 @@
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE UndecidableInstances #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.LSP.Types where
 
 import Colog.Core hiding (Lens')

@@ -1,5 +1,7 @@
 {-# LANGUAGE PartialTypeSignatures #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Description: Converts V1 types to the V2 hashing types
 module Unison.Hashing.V2.Convert
   ( ResolutionResult,

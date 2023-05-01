@@ -6,6 +6,8 @@
 {-# LANGUAGE PatternGuards #-}
 {-# LANGUAGE PatternSynonyms #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Runtime.MCode
   ( Args' (..),
     Args (..),

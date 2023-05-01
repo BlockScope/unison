@@ -2,6 +2,8 @@
 {-# LANGUAGE FunctionalDependencies #-}
 {-# LANGUAGE GeneralizedNewtypeDeriving #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module EasyTest where
 
 import Control.Applicative

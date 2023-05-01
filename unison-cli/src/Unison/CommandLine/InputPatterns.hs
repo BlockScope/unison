@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 {-
    This module defines 'InputPattern' values for every supported input command.
 -}

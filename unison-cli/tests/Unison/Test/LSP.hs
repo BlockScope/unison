@@ -1,6 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE QuasiQuotes #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Test.LSP (test) where
 
 import qualified Crypto.Random as Random

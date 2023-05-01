@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Small logging library. Typical usage, import qualified:
 --
 --   import qualified Unison.Util.Logger as L

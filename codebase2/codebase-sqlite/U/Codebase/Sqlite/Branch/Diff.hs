@@ -4,6 +4,8 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Codebase.Sqlite.Branch.Diff where
 
 import Data.Bifunctor (Bifunctor (bimap))

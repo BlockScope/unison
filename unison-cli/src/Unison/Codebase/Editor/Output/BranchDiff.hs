@@ -1,5 +1,7 @@
 {-# LANGUAGE RecordWildCards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Codebase.Editor.Output.BranchDiff where
 
 import Control.Lens

@@ -5,6 +5,8 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 {-# LANGUAGE TypeOperators #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Codebase.Sync where
 
 import Control.Monad (when)

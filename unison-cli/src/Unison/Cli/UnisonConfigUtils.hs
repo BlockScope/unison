@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | @.unisonConfig@ file utilities
 module Unison.Cli.UnisonConfigUtils
   ( defaultMetadataKey,

@@ -1,4 +1,6 @@
 {-# LANGUAGE DataKinds #-}
+
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
 {-# OPTIONS_GHC -Wno-orphans #-}
 
 module Unison.Server.Orphans where

@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Codebase.Reference where
 
 import Control.Lens (Bifunctor (..), Lens, Prism, Traversal, lens, prism)

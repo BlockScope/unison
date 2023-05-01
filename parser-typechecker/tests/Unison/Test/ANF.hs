@@ -1,6 +1,8 @@
 {-# LANGUAGE BangPatterns #-}
 {-# LANGUAGE PatternGuards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Test.ANF where
 
 import Control.Monad.Reader (ReaderT (..))

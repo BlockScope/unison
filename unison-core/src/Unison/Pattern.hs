@@ -3,6 +3,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE PatternSynonyms #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Pattern where
 
 import Data.List (intercalate)

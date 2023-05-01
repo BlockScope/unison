@@ -6,6 +6,8 @@
 {-# LANGUAGE StandaloneDeriving #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Server.Doc where
 
 import Control.Lens (view, (^.))

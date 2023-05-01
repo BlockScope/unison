@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | This module facilitates the creation of "localized" versions of objects, suitable for storage.
 --
 -- Localization is a stateful process in which the real database identifiers contained within an object, e.g. 'DbBranch', are canonicalized

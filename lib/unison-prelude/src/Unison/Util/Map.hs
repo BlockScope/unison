@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | @Map@ utilities.
 module Unison.Util.Map
   ( bimap,

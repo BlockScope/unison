@@ -1,6 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE TypeApplications #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Builtin.Terms
   ( builtinTermsRef,
     builtinTermsSrc,

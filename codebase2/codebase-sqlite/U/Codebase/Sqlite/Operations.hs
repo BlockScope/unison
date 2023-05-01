@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Codebase.Sqlite.Operations
   ( -- * branches
     saveRootBranch,

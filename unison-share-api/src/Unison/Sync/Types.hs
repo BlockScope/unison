@@ -1,7 +1,8 @@
 {-# LANGUAGE ApplicativeDo #-}
 {-# LANGUAGE RecordWildCards #-}
+
 -- Name shadowing is really helpful for writing some custom traversals
-{-# OPTIONS_GHC -fno-warn-name-shadowing #-}
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
 
 module Unison.Sync.Types
   ( -- * Misc. types

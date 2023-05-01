@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Typechecker.Extractor where
 
 import Control.Monad.Reader

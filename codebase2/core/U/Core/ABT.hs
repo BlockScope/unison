@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- Based on: http://semantic-domain.blogspot.com/2015/03/abstract-binding-trees.html
 
 module U.Core.ABT where

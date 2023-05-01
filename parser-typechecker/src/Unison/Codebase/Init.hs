@@ -1,6 +1,8 @@
 {-# LANGUAGE ApplicativeDo #-}
 {-# LANGUAGE OverloadedStrings #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Codebase.Init
   ( Init (..),
     DebugName,

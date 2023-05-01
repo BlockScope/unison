@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | The private Unison.Name innards. Prefer importing Unison.Name instead, unless you need the data constructor of
 -- Name.
 module Unison.Name.Internal

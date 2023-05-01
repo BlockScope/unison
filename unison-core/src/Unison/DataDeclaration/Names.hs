@@ -1,5 +1,7 @@
 {-# LANGUAGE RecordWildCards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.DataDeclaration.Names (bindNames, dataDeclToNames', effectDeclToNames') where
 
 import Unison.ConstructorReference (GConstructorReference (..))

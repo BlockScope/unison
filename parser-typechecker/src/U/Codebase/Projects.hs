@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Codebase.Projects where
 
 import qualified Control.Lens.Cons as Cons

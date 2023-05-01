@@ -1,6 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE QuasiQuotes #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Test.ClearCache where
 
 import Data.Foldable (for_)

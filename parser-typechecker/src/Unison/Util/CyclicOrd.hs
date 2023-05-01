@@ -2,6 +2,8 @@
 {-# LANGUAGE Strict #-}
 {-# LANGUAGE StrictData #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Util.CyclicOrd where
 
 import qualified Data.Sequence as S

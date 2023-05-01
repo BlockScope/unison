@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.PrettyPrintEnvDecl.Sqlite where
 
 import U.Codebase.HashTags (BranchHash)

@@ -1,5 +1,7 @@
 {-# LANGUAGE DataKinds #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Codebase.Referent where
 
 import Control.Lens (Prism, Traversal)

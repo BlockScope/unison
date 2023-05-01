@@ -1,5 +1,7 @@
 {-# LANGUAGE DataKinds #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Type where
 
 import Control.Lens (Prism')

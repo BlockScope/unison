@@ -1,5 +1,7 @@
 {-# LANGUAGE MultiWayIf #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Codebase.SqliteCodebase.Migrations where
 
 import Control.Concurrent.MVar

@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Codebase.BranchDiff where
 
 import qualified Data.Map as Map

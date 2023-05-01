@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Render Unison.Server.Doc as plain markdown, used in the LSP
 module Unison.Server.Doc.Markdown.Render (toMarkdown) where
 

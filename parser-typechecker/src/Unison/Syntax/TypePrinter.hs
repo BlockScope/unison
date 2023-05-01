@@ -2,6 +2,8 @@
 {-# LANGUAGE PatternSynonyms #-}
 {-# LANGUAGE ScopedTypeVariables #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Syntax.TypePrinter
   ( pretty,
     pretty0,

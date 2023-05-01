@@ -1,5 +1,5 @@
+{-# OPTIONS_GHC -Wno-incomplete-patterns #-}
 {-# OPTIONS_GHC -Wno-unused-imports #-}
-{-# OPTIONS_GHC -fno-warn-incomplete-patterns #-}
 
 module Main where
 

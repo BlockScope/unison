@@ -1,5 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Test.Syntax.TermPrinter (test) where
 
 import qualified Data.Text as Text

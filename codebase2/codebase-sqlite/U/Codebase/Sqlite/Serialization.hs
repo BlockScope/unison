@@ -1,5 +1,7 @@
 {-# LANGUAGE RecordWildCards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Codebase.Sqlite.Serialization where
 
 import Data.Bits (Bits)

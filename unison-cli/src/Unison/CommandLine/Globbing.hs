@@ -2,6 +2,8 @@
 {-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Provides Globbing for selecting types, terms and namespaces using wildcards.
 module Unison.CommandLine.Globbing
   ( expandGlobs,

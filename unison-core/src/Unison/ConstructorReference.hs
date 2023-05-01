@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | The constructor reference type.
 module Unison.ConstructorReference
   ( GConstructorReference (..),

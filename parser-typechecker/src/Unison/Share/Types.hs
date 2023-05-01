@@ -1,6 +1,8 @@
 {-# LANGUAGE DeriveAnyClass #-}
 {-# LANGUAGE RecordWildCards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Types related to Share and Codeservers.
 module Unison.Share.Types
   ( CodeserverURI (..),

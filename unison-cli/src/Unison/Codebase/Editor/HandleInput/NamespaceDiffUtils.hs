@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Helpers/utils that have to do with namespace diffs.
 module Unison.Codebase.Editor.HandleInput.NamespaceDiffUtils
   ( diffHelper,

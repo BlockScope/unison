@@ -3,6 +3,8 @@
 {-# LANGUAGE PatternSynonyms #-}
 {-# LANGUAGE RecordWildCards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.LSP.VFS where
 
 import qualified Colog.Core as Colog

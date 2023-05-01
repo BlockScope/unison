@@ -1,4 +1,4 @@
-{-# OPTIONS_GHC -fno-warn-orphans #-}
+{-# OPTIONS_GHC -Wno-orphans #-}
 
 -- | Syntax-related combinators for Name (to/from string types).
 module Unison.Syntax.Name

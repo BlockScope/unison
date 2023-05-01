@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.LSP.Diagnostics where
 
 import Language.LSP.Types

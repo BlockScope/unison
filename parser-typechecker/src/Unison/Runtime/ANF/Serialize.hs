@@ -2,6 +2,8 @@
 {-# LANGUAGE LambdaCase #-}
 {-# LANGUAGE PatternSynonyms #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Runtime.ANF.Serialize where
 
 import Control.Monad

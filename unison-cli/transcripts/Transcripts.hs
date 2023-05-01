@@ -1,5 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 {- This module kicks off the Transcript Tests.
    It doesn't do the transcript parsing itself.
 -}

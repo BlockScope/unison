@@ -1,6 +1,5 @@
 {-# LANGUAGE DataKinds #-}
 {-# LANGUAGE DeriveDataTypeable #-}
--- Based on: http://semantic-domain.blogspot.com/2015/03/abstract-binding-trees.html
 {-# LANGUAGE DeriveFoldable #-}
 {-# LANGUAGE DeriveGeneric #-}
 {-# LANGUAGE DeriveTraversable #-}
@@ -12,6 +11,9 @@
 {-# LANGUAGE UndecidableInstances #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
+-- Based on: http://semantic-domain.blogspot.com/2015/03/abstract-binding-trees.html
 module Unison.ABT
   ( -- * Types
     ABT (..),

@@ -1,5 +1,7 @@
 {-# LANGUAGE BangPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Util.Text.Pattern where
 
 import Data.Char (isAlphaNum, isControl, isLetter, isLower, isMark, isNumber, isPrint, isPunctuation, isSeparator, isSpace, isSymbol, isUpper)

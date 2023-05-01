@@ -1,5 +1,7 @@
 {-# LANGUAGE PartialTypeSignatures #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Find a computation of type '{IO} () in the codebase.
 module Unison.Codebase.MainTerm where
 

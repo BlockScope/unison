@@ -1,6 +1,8 @@
 {-# LANGUAGE DataKinds #-}
 {-# LANGUAGE UnicodeSyntax #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Term where
 
 import Control.Lens (Lens', Prism', lens)

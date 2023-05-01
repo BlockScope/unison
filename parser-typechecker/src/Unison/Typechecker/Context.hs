@@ -4,6 +4,8 @@
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Typechecker.Context
   ( synthesizeClosed,
     ErrorNote (..),

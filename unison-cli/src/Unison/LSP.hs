@@ -3,6 +3,8 @@
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE TypeOperators #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.LSP where
 
 import Colog.Core (LogAction (LogAction))

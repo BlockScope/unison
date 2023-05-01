@@ -4,6 +4,8 @@
 {-# LANGUAGE UndecidableInstances #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Runtime.Foreign.Function
   ( ForeignFunc (..),
     ForeignConvention (..),

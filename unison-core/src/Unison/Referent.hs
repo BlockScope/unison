@@ -1,6 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE PatternSynonyms #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Referent
   ( Referent,
     pattern Ref,

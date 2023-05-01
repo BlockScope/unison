@@ -1,5 +1,7 @@
 {-# LANGUAGE ImplicitParams #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Sqlite exception utils.
 module Unison.Sqlite.Exception
   ( -- * @SomeSqliteException@

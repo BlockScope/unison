@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Hashable (accumulate', hash, toBytes) where
 
 import qualified Crypto.Hash as CH

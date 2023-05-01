@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | Helpers/utils that have to do with term/type metadata.
 module Unison.Codebase.Editor.HandleInput.MetadataUtils
   ( addDefaultMetadata,

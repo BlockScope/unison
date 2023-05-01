@@ -1,5 +1,7 @@
 {-# LANGUAGE UndecidableInstances #-}
+
 {-# OPTIONS_GHC -Wno-deprecations #-}
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
 
 module Unison.Syntax.Parser where
 

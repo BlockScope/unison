@@ -3,6 +3,8 @@
 {-# LANGUAGE PatternSynonyms #-}
 {-# LANGUAGE RecordWildCards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Codebase.SqliteCodebase.Branch.Dependencies where
 
 import Data.Foldable (toList)

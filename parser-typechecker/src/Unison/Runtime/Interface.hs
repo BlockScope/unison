@@ -7,6 +7,8 @@
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE ScopedTypeVariables #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Runtime.Interface
   ( startRuntime,
     withRuntime,

@@ -1,5 +1,7 @@
 {-# LANGUAGE PartialTypeSignatures #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Syntax.TermParser where
 
 import Control.Monad.Reader (asks, local)

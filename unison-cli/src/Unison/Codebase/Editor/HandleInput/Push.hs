@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | @push@ input handler
 module Unison.Codebase.Editor.HandleInput.Push
   ( handleGist,

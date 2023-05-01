@@ -1,5 +1,7 @@
 {-# LANGUAGE DataKinds #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.PatternMatchCoverage.Solve
   ( uncoverAnnotate,
     classify,

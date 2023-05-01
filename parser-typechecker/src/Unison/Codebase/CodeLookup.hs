@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Codebase.CodeLookup where
 
 import Control.Monad.Morph (MFunctor (..))

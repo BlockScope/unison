@@ -1,5 +1,7 @@
 {-# LANGUAGE RecursiveDo #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.PatternMatchCoverage.UFMap
   ( UFMap,
     UFValue (..),

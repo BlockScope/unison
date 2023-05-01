@@ -1,6 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE Rank2Types #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Builtin
   ( codeLookup,
     constructorType,

@@ -2,6 +2,8 @@
 {-# LANGUAGE OverloadedLists #-}
 {-# LANGUAGE QuasiQuotes #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Codebase.SqliteCodebase.Migrations.MigrateSchema6To7 (migrateSchema6To7) where
 
 import Control.Monad.Except

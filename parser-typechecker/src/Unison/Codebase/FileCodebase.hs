@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Codebase.FileCodebase (codebaseExists) where
 
 import System.FilePath ((</>))

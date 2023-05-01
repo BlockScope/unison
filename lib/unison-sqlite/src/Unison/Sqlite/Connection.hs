@@ -1,4 +1,5 @@
 {-# OPTIONS_GHC -Wno-deprecations #-}
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
 
 module Unison.Sqlite.Connection
   ( -- * Connection management

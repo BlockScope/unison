@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Main (main) where
 
 import Control.Concurrent.Async

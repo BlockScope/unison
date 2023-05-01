@@ -1,5 +1,7 @@
 {-# LANGUAGE DataKinds #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 -- | The main CLI monad.
 module Unison.Cli.Monad
   ( -- * Cli monad

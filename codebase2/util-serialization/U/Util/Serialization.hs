@@ -6,6 +6,8 @@
 {-# LANGUAGE TypeApplications #-}
 {-# LANGUAGE ViewPatterns #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module U.Util.Serialization where
 
 import Control.Applicative (Applicative (liftA2), liftA3)

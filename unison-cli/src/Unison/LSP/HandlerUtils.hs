@@ -1,5 +1,7 @@
 {-# LANGUAGE PolyKinds #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.LSP.HandlerUtils where
 
 import Control.Lens

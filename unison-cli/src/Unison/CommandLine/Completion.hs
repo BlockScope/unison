@@ -3,6 +3,8 @@
 -}
 {-# LANGUAGE RecordWildCards #-}
 
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.CommandLine.Completion
   ( -- * Completers
     exactComplete,

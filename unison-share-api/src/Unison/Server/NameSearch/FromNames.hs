@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-name-shadowing #-}
+
 module Unison.Server.NameSearch.FromNames where
 
 import qualified Unison.HashQualified' as HQ'
